@@ -1,0 +1,192 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-size: 150%;/* center everything, no width */
+  background: hsl(204 100% 5%);
+}
+
+h1{
+  margin-top: 0;
+}
+
+h2, h3{
+font-family:"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+
+  /*  leverage cascade for cross-browser gradients  */
+ background: radial-gradient(
+   hsl(100 100% 60%),
+   hsl(200 100% 60%)
+ ) fixed;
+ background: conic-gradient(
+   hsl(100 100% 60%),
+   hsl(200 100% 60%),
+   hsl(100 100% 60%)
+ ) fixed;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+
+p, em{
+  color: white;
+  line-height: 2;
+  padding-bottom: 20px;
+}
+
+hr {
+  /*
+  border: dotted white 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto 100px auto;
+  */
+
+  border: 0;
+  height: 0;
+  width: 4%;
+  box-shadow: 0 0 10px 1px white;
+  margin: 100px auto 100px auto;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.coding{
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.playBasketball{
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+
+/*
+.code-skill-description{
+  clear: left;
+}
+
+.basketball {
+  clear: right;
+}
+*/
+
+.TopContainer{
+  background: hsl(204 100% 5%);
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin-top: 100px;
+}
+
+.downCloud{
+  position: absolute;
+  left: 300px;
+  top: 50px;
+}
+
+.topCloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+.profile {
+  padding-top: 20px;
+}
+
+.bottom-container{
+  background-color: #05DFD7;
+  padding: 50px 0 20px
+}
+
+.btn {
+  background: #8fd2ff;
+  background-image: -webkit-linear-gradient(top, #8fd2ff, #0091eb);
+  background-image: -moz-linear-gradient(top, #8fd2ff, #0091eb);
+  background-image: -ms-linear-gradient(top, #8fd2ff, #0091eb);
+  background-image: -o-linear-gradient(top, #8fd2ff, #0091eb);
+  background-image: linear-gradient(to bottom, #8fd2ff, #0091eb);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family:"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #2bff99;
+  background-image: -webkit-linear-gradient(top, #2bff99, #34d9b8);
+  background-image: -moz-linear-gradient(top, #2bff99, #34d9b8);
+  background-image: -ms-linear-gradient(top, #2bff99, #34d9b8);
+  background-image: -o-linear-gradient(top, #2bff99, #34d9b8);
+  background-image: linear-gradient(to bottom, #2bff99, #34d9b8);
+  text-decoration: none;
+}
+
+.contact-me{
+  width: 40%;
+  margin: 40px auto 100px;
+}
+
+.neonText{
+  font-size: 5.65rem;
+  font-family: 'Oooh Baby', cursive;
+  margin: 50px auto 0 auto;
+  animation: flicker 1.5s infinite alternate;
+  color: white;
+  text-shadow:
+     0 0 7px #fff,
+     0 0 10px #fff,
+     0 0 21px #fff,
+     0 0 42px #FF1700,
+     0 0 82px #FF1700,
+     0 0 92px #FF1700,
+     0 0 102px #FF1700,
+     0 0 151px #FF1700;
+}
+@keyframes flicker {
+
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #28FFBF,
+      0 0 80px #28FFBF,
+      0 0 90px #28FFBF,
+      0 0 100px #28FFBF,
+      0 0 150px #28FFBF;
+
+  }
+
+  20%, 24%, 55% {
+      text-shadow: none;
+  }
+}
+
+#copyright{
+  font-size: 0.75rem;
+  color: white;
+  padding: 20px 0;
+}
+
+#school{
+  color: white;
+  text-decoration: none;
+}
