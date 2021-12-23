@@ -88,14 +88,14 @@ hr {
 
 .downCloud{
   position: absolute;
-  left: 300px;
-  top: 50px;
+  left: 15rem;
+  top: 4rem;
 }
 
 .topCloud{
   position: absolute;
-  right: 300px;
-  top: 50px;
+  right: 15rem;
+  top: 4rem;
 }
 
 .pro{
